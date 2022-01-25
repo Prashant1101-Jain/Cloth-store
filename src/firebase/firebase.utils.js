@@ -14,7 +14,7 @@ const config = {
   measurementId: "G-RTB7EQ5V3M",
 };
 
-export const createUserProfileDocument = async ({userAuth,additionalData,}) => {
+export const createUserProfileDocument = async (userAuth,additionalData) => {
   if (!userAuth) {
     return;
   }
